@@ -20,6 +20,7 @@ public class testExport {
 		// System.out.println(" date："+urlcon.getDate());
 	}*/
 	
+	//测试github
 	public static String encode(String s) throws UnsupportedEncodingException {
 		String urlStr = URLEncoder.encode(s, "utf-8");
 		String replaceAll = urlStr.replaceAll("\\+", "%20");
